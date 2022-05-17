@@ -47,6 +47,8 @@ homebrew_installed_packages:
   - wget
   - bitwarden-cli
   - podman
+  - minikube
+  - helm
 
 homebrew_taps:
   - homebrew/core
@@ -55,17 +57,10 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - brave-browser
-  #- docker
-  #- dropbox
-  #- firefox
-  #- google-chrome
-  #- handbrake
-  #- licecap
-  #- sequel-ace
-  #- slack
-  #- sublime-text
-  #- transmit
-  #- vagrant
+  - mattermost
+  - nordvpn
+  - intellij-idea-ce 
+  - iterm2 
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
