@@ -49,6 +49,7 @@ homebrew_installed_packages:
   - podman
   - minikube
   - helm
+  - hyperkit
 
 homebrew_taps:
   - homebrew/core
