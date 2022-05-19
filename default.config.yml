@@ -1,7 +1,7 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_dotfiles: true
+configure_dotfiles: false
 configure_terminal: true
 configure_osx: true
 
@@ -28,7 +28,6 @@ dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
-  - .zshrc
   - .gitignore
   - .inputrc
   - .osx
@@ -42,7 +41,6 @@ homebrew_installed_packages:
   - httpie
   - nmap
   - node
-  - nvm
   - ssh-copy-id
   - wget
   - bitwarden-cli
@@ -50,6 +48,13 @@ homebrew_installed_packages:
   - minikube
   - helm
   - hyperkit
+  - maven
+  - jenv
+  - openjdk@8
+  - openjdk@11
+  - openjdk@17
+  - tree
+  - zsh-history-substring-search
 
 homebrew_taps:
   - homebrew/core
